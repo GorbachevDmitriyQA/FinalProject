@@ -1,9 +1,4 @@
-import pytest
-from playwright.sync_api import expect, Page
-import re
-import os
 import allure
-from PageObject.header_page_block import HeaderBlockPage
 from StepsManager.base_steps import BaseSteps
 
 

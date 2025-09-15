@@ -5,6 +5,7 @@ import  screeninfo
 from playwright.sync_api import expect
 expect.set_options(timeout=12340)
 from Tests.config import *
+from StepsManager.base_steps import BaseSteps
 
 @pytest.fixture(scope="function")
 def page():
@@ -26,3 +27,9 @@ def page():
         page.goto(base_url)
         yield page
         browser.close()
+
+"""Выполнить вход в систему"""
+@pytest.fixture
+def user_auth(page):
+    steps = BaseSteps(page)
+    steps.login()
