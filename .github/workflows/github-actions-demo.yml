@@ -28,6 +28,7 @@ jobs:
       - name: Install Playwright browsers
         run: playwright install
       - name: All test run
+        if: "github.event.inputs.deployment_target == 'all_test'"
         run: pytest
       - name: E2E test run
         if: "github.event.inputs.deployment_target == 'e2e_test'"
