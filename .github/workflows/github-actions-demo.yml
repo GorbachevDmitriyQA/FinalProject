@@ -11,6 +11,13 @@ on:
         options:
           - all_test
           - e2e_test
+
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -29,7 +36,50 @@ jobs:
         run: playwright install
       - name: All test run
         if: "github.event.inputs.deployment_target == 'all_test'"
-        run: pytest
+        run: pytest --alluredir=allure-results
       - name: E2E test run
         if: "github.event.inputs.deployment_target == 'e2e_test'"
-        run: pytest Tests/test_e2e.py::test_end_to_end
+        run: pytest Tests/test_e2e.py::test_end_to_end --alluredir=allure-results
+      - name: Store allure results
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-results
+          path:
+            allure-results
+          retention-days: 1
+
+  generate-report:
+    runs-on: ubuntu-latest
+    needs: test
+    name: Generate Allure Report
+    steps:
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'microsoft'
+          java-version: '17'
+      - run: sudo wget wget https://github.com/allure-framework/allure2/releases/download/2.35.1/allure-2.35.1.tgz && sudo tar -zxvf allure-2.35.1.tgz -C /opt/ && sudo ln -s /opt/allure-2.35.1/bin/allure /usr/bin/allure
+      - name: Download all workflow run artifacts
+        uses: actions/download-artifact@v3
+      - run: allure generate -c allure-results -o _site
+      - name: Store generated report
+        uses: actions/upload-artifact@v3
+        with:
+          name: _site
+          path:
+            _site
+          retention-days: 1
+
+
+  publish-report:
+    runs-on: ubuntu-latest
+    needs: generate-report
+    name: Publication Allure Reports
+    steps:
+      - name: Download all workflow run artifacts
+        uses: actions/download-artifact@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifatc@v2
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages-artifatc@v1.2.9
+
