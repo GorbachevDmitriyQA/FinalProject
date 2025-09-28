@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f740f8a-6e03-49e1-9fd4-a5590ec122aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
+    <list default="true" id="9f740f8a-6e03-49e1-9fd4-a5590ec122aa" name="Changes" comment="change yml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
     </list>
@@ -171,6 +170,15 @@
       <option name="presentableId" value="Default" />
       <updated>1757905304212</updated>
     </task>
+    <task id="LOCAL-00001" summary="change yml file">
+      <option name="closed" value="true" />
+      <created>1759054581093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759054581093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +191,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="change yml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -15,19 +15,19 @@ from pathlib import Path
 @pytest.fixture(scope="function")
 def page():
     with sync_playwright() as p:
-        # Получим размеры экрана
-        try:
-            from screeninfo import get_monitors
-            monitor = get_monitors()[1]
-            width, height = monitor.width, monitor.height
-        except ImportError:
-            width, height = 1920, 1080
+        # Раскоменить для локального запуска
+        # try:
+        #     from screeninfo import get_monitors
+        #     monitor = get_monitors()[1]
+        #     width, height = monitor.width, monitor.height
+        # except ImportError:
+        #     width, height = 1920, 1080
 
         browser = p.chromium.launch(headless=True,
                                     )
-        context = browser.new_context(
-            viewport={'width': width, 'height': height},
-        ignore_https_errors=True)
+        context = browser.new_context()
+        #     viewport={'width': width, 'height': height},
+        # ignore_https_errors=True)
         page = context.new_page()
         page.goto(base_url)
         yield page
