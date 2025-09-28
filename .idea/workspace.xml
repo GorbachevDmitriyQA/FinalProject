@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9f740f8a-6e03-49e1-9fd4-a5590ec122aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/calculation_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/calculation_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/header_page_block.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/PageBlock/header_page_block.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StepsManager/Validations/base_steps_validations.py" beforeDir="false" afterPath="$PROJECT_DIR$/StepsManager/Validations/base_steps_validations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StepsManager/Validations/calculator_validations.py" beforeDir="false" afterPath="$PROJECT_DIR$/StepsManager/Validations/calculator_validations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StepsManager/base_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/StepsManager/base_steps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StepsManager/calculation_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/StepsManager/calculation_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_succes_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_succes_auth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GorbachevDmitriyQA"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GorbachevDmitriyQA&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GorbachevDmitriyQA/FinalProject.git",
-    "accountId": "0342591c-a3e8-4864-bc51-5ed9cc515073"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GorbachevDmitriyQA/FinalProject.git&quot;,
+    &quot;accountId&quot;: &quot;0342591c-a3e8-4864-bc51-5ed9cc515073&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="32iZMMitfyJjLDk4JCFJGrTACAo" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -47,40 +52,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_countertop_hide.test_success_hide_countertop.executor": "Debug",
-    "Python tests.Python tests for test_countertop_p.test_success_change_countertop_p.executor": "Run",
-    "Python tests.Python tests for test_succes_auth.test_auth_success.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_countertop_hide.test_success_hide_countertop.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_countertop_p.test_success_change_countertop_p.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_e2e.test_end_to_end.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_succes_auth.test_auth_success.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in test_e2e.py.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dmitry/PycharmProjects/FinalProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmitry\PycharmProjects\FinalProject\PageObject\PageBlock" />
+      <recent name="C:\Users\Dmitry\PycharmProjects\FinalProject\PageObject" />
       <recent name="C:\Users\Dmitry\PycharmProjects\FinalProject\StepsManager" />
       <recent name="C:\Users\Dmitry\PycharmProjects\FinalProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_countertop_p.test_success_change_countertop_p">
-    <configuration name="Python tests for Tests.test_succes_auth.test_auth_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="FinalProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests.test_succes_auth.test_auth_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for test_e2e.test_end_to_end">
     <configuration name="Python tests for test_countertop_hide.test_success_hide_countertop" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProject" />
       <option name="ENV_FILES" value="" />
@@ -111,6 +106,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_e2e.test_end_to_end" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_e2e.test_end_to_end&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_succes_auth.test_auth_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="FinalProject" />
       <option name="ENV_FILES" value="" />
@@ -126,12 +136,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_e2e.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_e2e.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_e2e.test_end_to_end" />
+        <item itemvalue="Python tests.Python tests in test_e2e.py" />
         <item itemvalue="Python tests.Python tests for test_countertop_p.test_success_change_countertop_p" />
         <item itemvalue="Python tests.Python tests for test_countertop_hide.test_success_hide_countertop" />
         <item itemvalue="Python tests.Python tests for test_succes_auth.test_auth_success" />
-        <item itemvalue="Python tests.Python tests for Tests.test_succes_auth.test_auth_success" />
       </list>
     </recent_temporary>
   </component>
@@ -167,14 +193,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/PageObject/header_page_block.py</url>
+          <url>file://$PROJECT_DIR$/PageObject/PageBlock/header_page_block.py</url>
           <line>25</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/StepsManager/Validations/base_steps_validations.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

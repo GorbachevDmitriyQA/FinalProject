@@ -1,7 +1,6 @@
-import pytest
 import allure
 from playwright.sync_api import Page
-from PageObject.header_page_block import HeaderBlockPage
+from PageObject.PageBlock.header_page_block import HeaderBlockPage
 from StepsManager.Validations.base_steps_validations import BaseStepsValidations
 from Tests.config import *
 

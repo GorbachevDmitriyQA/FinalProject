@@ -1,11 +1,10 @@
-import logging
-
 from playwright.sync_api import Page, expect
-from PageObject.header_page_block import HeaderBlockPage
+from PageObject.PageBlock.header_page_block import HeaderBlockPage
 import allure
+from PageObject.page_base import PageBase
 
 """Класс проверок для базовых шагов (BaseSteps)"""
-class BaseStepsValidations:
+class BaseStepsValidations():
     def __init__(self, page: Page):
         self.page = page
         """Страница с элементами header системы"""
