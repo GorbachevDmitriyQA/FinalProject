@@ -15,7 +15,6 @@ jobs:
           python-version: "3.13"
       - name: install dependencies
         run:
-          pip install playwright
           pip install -r requirements.txt
       - name: Install Playwright browsers
         run: playwright install
