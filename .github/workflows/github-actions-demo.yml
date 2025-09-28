@@ -1,7 +1,16 @@
 name: Automated tests run
 
 on:
-  push
+  workflow_dispatch:
+    inputs:
+      deployment_target:
+        description: Choose test run
+        required: true
+        default: all_test
+        type: choice
+        options:
+          - all_test
+          - e2e_test
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -18,5 +27,8 @@ jobs:
           pip install -r requirements.txt
       - name: Install Playwright browsers
         run: playwright install
-      - name: Run tests
+      - name: All test run
         run: pytest
+      - name: E2E test run
+        if: "github.event.inputs.deployment_target == 'e2e_test'"
+        run: pytest Tests/test_e2e.py::test_end_to_end
