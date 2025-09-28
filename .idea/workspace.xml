@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f740f8a-6e03-49e1-9fd4-a5590ec122aa" name="Changes" comment="change yml 2">
+    <list default="true" id="9f740f8a-6e03-49e1-9fd4-a5590ec122aa" name="Changes" comment="add allure pulication">
       <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions-demo.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -218,7 +218,31 @@
       <option name="project" value="LOCAL" />
       <updated>1759057453497</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add allure pulication">
+      <option name="closed" value="true" />
+      <created>1759059608529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759059608529</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add allure pulication">
+      <option name="closed" value="true" />
+      <created>1759059756666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759059756666</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add allure pulication">
+      <option name="closed" value="true" />
+      <created>1759059908726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759059908726</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +261,8 @@
     <MESSAGE value="remove get monitors" />
     <MESSAGE value="add install playwright" />
     <MESSAGE value="change yml 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="change yml 2" />
+    <MESSAGE value="add allure pulication" />
+    <option name="LAST_COMMIT_MESSAGE" value="add allure pulication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
