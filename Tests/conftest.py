@@ -23,7 +23,7 @@ def page():
         except ImportError:
             width, height = 1920, 1080
 
-        browser = p.chromium.launch(headless=False,
+        browser = p.chromium.launch(headless=True,
                                     )
         context = browser.new_context(
             viewport={'width': width, 'height': height},
