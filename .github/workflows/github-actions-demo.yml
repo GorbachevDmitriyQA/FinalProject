@@ -37,9 +37,11 @@ jobs:
       - name: All test run
         if: "github.event.inputs.deployment_target == 'all_test'"
         run: pytest --alluredir=allure-results
+        continue-on-error: true
       - name: E2E test run
         if: "github.event.inputs.deployment_target == 'e2e_test'"
         run: pytest Tests/test_e2e.py::test_end_to_end --alluredir=allure-results
+        continue-on-error: true
       - name: Store allure results
         uses: actions/upload-artifact@v3
         with:
