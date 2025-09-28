@@ -43,7 +43,7 @@ jobs:
         run: pytest Tests/test_e2e.py::test_end_to_end --alluredir=allure-results
         continue-on-error: true
       - name: Store allure results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path:
@@ -61,10 +61,10 @@ jobs:
           java-version: '17'
       - run: sudo wget wget https://github.com/allure-framework/allure2/releases/download/2.35.1/allure-2.35.1.tgz && sudo tar -zxvf allure-2.35.1.tgz -C /opt/ && sudo ln -s /opt/allure-2.35.1/bin/allure /usr/bin/allure
       - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
       - run: allure generate -c allure-results -o _site
       - name: Store generated report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: _site
           path:
@@ -78,7 +78,7 @@ jobs:
     name: Publication Allure Reports
     steps:
       - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifatc@v2
       - name: Deploy to GitHub Pages
